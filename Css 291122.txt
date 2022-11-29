@@ -1,0 +1,138 @@
+
+    <html>
+<head>
+<style>
+div > p{​​
+color:aqua;
+       }​​
+</style>
+</head>
+<body>
+<div>
+<p>this is first paragraph1</p>
+<p>this is first paragraph2</p>
+<section>
+<p>this is section1 paragraph3</p>
+<p>this is section1 paragraph3</p>
+</section>
+<p>this is first paragraph3</p>
+<p>this is first paragraph4</p>
+<h1>this is heading 1</h1>
+</div>
+</body>
+</html>
+======================
+    <html>
+<head>
+<style>
+div + p{​​
+color:aqua;
+       }​​
+</style>
+</head>
+<body>
+<div>
+<p>this is first paragraph1</p>
+<p>this is first paragraph2</p>
+</div>
+<p>this is adjacent1 paragraph3</p>
+<div>
+<p>this is first paragraph1</p>
+<p>this is first paragraph2</p>
+</div>
+<p>this is adjacent2</p>
+<p>this is paragarap4</p>
+<h1>this is heading 1</h1>
+</div>
+</body>
+</html>
+=====================
+    <html>
+<head>
+<style>
+div ~ p{​​
+color:aqua;
+       }​​
+</style>
+</head>
+<body>
+<div>
+<p>this is first paragraph1</p>
+<p>this is first paragraph2</p>
+<section>
+<p>this is first paragraph2</p>
+</section>
+</div>
+<p>this is adjacent1 paragraph3</p>
+<p>this is paragarap4</p>
+<div>
+<p>this is first paragraph1</p>
+<p>this is first paragraph2</p>
+</div>
+<p>this is adjacent2</p>
+<p>this is paragarap4</p>
+<p>this is paragarap4</p>
+<h1>this is heading 1</h1>
+</div>
+</body>
+</html>
+=============================
+    <style>
+.bg{​​
+background-color: bisque;
+            }​​
+p.center{​​
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+color:aquamarine;
+text-align: center;
+            }​​
+p.right {​​
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+color: brown;
+border: 10px;
+border-style: double;
+border-radius: 30px;
+text-align: justify;
+padding: 10px;
+text-align: right;
+            }​​
+</style>
+</head>
+<bodyclass="bg">
+<!-- <h1>Inline CSS</h1> -->
+<pclass="center">
+                inline CSS is used to apply a unique style 
+            to a single HTML element.
+            An inline CSS uses the style attribute of an HTML element
+</p>
+<!-- <h1>Internal CSS</h1> -->
+<pclass="right">An internal stylesheet holds CSS rules for the page in the head section of the HTML file. The rules only apply to that page, but you can configure CSS classes and IDs to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements.</p>
+<!-- <p class="para2">An internal stylesheet holds CSS rules for the page in the head section of the HTML file. The rules only apply to that page, but you can configure CSS classes and IDs to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page elements.</p> -->
+====================================
+Display "My Cities" as a main heading and apply css using id attribute such as 
+changing background color, 
+font color and font family. Display city names as a side headdings and display 
+paragraph about city under each
+city name apply css for paragraph's using class attribute such as line height, 
+font color, font-family and font size etc. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

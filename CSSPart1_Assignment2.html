@@ -1,0 +1,71 @@
+    
+<!--Exercise 2: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to gitHub. -->
+
+
+<!--Exercise 2.1: Using pseudo element selector, create a paragraph and display only the first line of para with blue coloured text with a capital letters of small size.-->
+<html>
+    <head>
+        <style>
+            p::first-line{
+                color: blue;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Using pseudo element selector, create a paragraph and display only the first line of para with 
+            blue coloured text with a capital letters of small size.  Using pseudo element selector, create a paragraph and display only the first line of para with 
+            blue coloured text with a capital letters of small size.  Using pseudo element selector, create a paragraph and display only the first line of para with 
+            blue coloured text with a capital letters of small size. Using pseudo element selector, create a paragraph and display only the first line of para with 
+            blue coloured text with a capital letters of small size
+        </p>
+    </body>
+</html>
+<!-- Exercise 2.2: Using general sibling selector, create an Unordered list, change the colour of the items to green and display them in bold text. --> 
+<html>
+    <head>
+        <style>
+            ul~li{
+                color: green;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Hp</li>
+            <li>Acer</li>
+            <li>Apple</li>
+            <li>Dell</li>
+        </ul>
+    <li>mech</li>
+    <li>civil</li>
+    <li>cse</li>
+    <li>Elec</li>
+    </body>
+</html>
+
+<!-- Exercise 2.3: Using adjacent sibling selector, display list items in an ordered list and change the background colour to yellow for the element which is an adjacent sibling for the selected element. -->
+ <html>
+        <head>
+            <style>
+                ol+li{
+                    background-color: yellow;
+                }
+            </style>
+        </head>
+        <body>
+            <ol>
+                <li>Amit1</li>
+                <li>Amit2</li>
+                <li>Amit3</li>
+                <li>Amit4</li>
+            </ol>
+            <li>Sharma1</li>
+            <li>Sharma2</li>
+            <li>Sharma3</li>
+        </body>
+    </html>
