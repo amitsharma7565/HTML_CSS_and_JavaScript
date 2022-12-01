@@ -1,0 +1,137 @@
+<!--Exercise 1: In this HTML page, do the following exercises. Click Preview link after completion of each excercise to see your output. 
+After completion of each excercise use br tag for line space. After completing all questions, submit the assignment to gitHub. -->
+
+<html>
+<body>
+
+<!--Exercise 1.1:  Write a sentence and display text in red colour with inline style for the body element  -->
+<h2> Exercise 1.1:  Write a sentence and display text in red colour with inline style for the body element</h2>
+<p style="color: red;">An inline CSS is used to apply a unique style to a single HTML element.</p>
+<br>
+<br>
+<br>
+
+<!--Exercise 1.2:  Write another sentence and use red coloured text in the paragraph using Internal style. -->
+<h2>Exercise 1.2:  Write another sentence and use red coloured text in the paragraph using Internal style</h2>
+<head>
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+</head>
+<p>An internal CSS is used to define a style for a single HTML page. An internal CSS is defined in the head section of an HTML page, within a style element.</p>
+<br>
+<br>
+<br>
+<!--Exercise 1.3:  Create a heading and a paragraph under it. Display text of heading and paragraph tags in different color and font 
+    size using external CSS --> 
+    <head>
+        <link rel="stylesheet" href="Mystyle.css">
+    </head>
+    <h2>Exercise 1.3: Create a heading and a paragraph under it. Display text of heading and paragraph tags in different color and font 
+        size using external CSS</h2>
+        <h2>External css</h2>
+        <p>
+            External CSS With an external style sheet, you can change the look of an entire website by changing just one file!
+            The most common way to add CSS, is to keep the styles in external CSS files
+        </p>
+        <br>
+        <br>
+        <br>
+
+<!-- Exercise 1.4: Display "My Cities" as a main heading and apply css using id attribute such as changing background color, 
+    font color and font family. Display city names as a side headdings and display paragraph about city under each
+     city name apply css for paragraph's using class attribute such as line height, font color, font-family and font size etc. -->
+<head>
+    <style>
+    #para {
+      background-color: bisque;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+      color: red;
+    }
+    .yellow {
+      line-height: 30px;
+      color: blanchedalmond;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+           }
+            
+    </style>
+    </head>
+    <body>
+    
+    <h1 id="para">My Cities</h1>
+    <backquote><h3 class="yellow">Delhi</h3></backquote>
+    <p>Delhi, Indias capital territory, is a massive metropolitan area in the countrys north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people.</p>
+    <backquote><h3 class="yellow">Mumbai</h3></backquote>
+    <p>Mumbai (formerly called Bombay) is a densely populated city on Indias west coast. A financial center, it's India's largest city. </p>
+    <backquote><h3 class="yellow">Manali</h3></backquote> 
+    <p>Manali is a high-altitude Himalayan resort town in Indias northern Himachal Pradesh state. It has a reputation as a backpacking center </p>
+    <br>
+<br>
+<br>
+<!--Exercise 1.5: Create an ordered list and change the background colour to yellow for the selected list items using descendent
+     selectors. -->
+     <head>
+        <style>
+            ol li {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+
+        
+        <h1>List items</h1>
+        
+        <p>Fruits list is:</p>
+        <ol>
+            <li>
+                <strong>Apple</strong> 
+            </li>
+            <li>
+                <strong >Orange</strong> 
+            </li>
+            <li>
+                <strong >Banana</strong> 
+            </li>
+        </ol>
+   <br>
+
+<!--Exercise 1.6: Create 3 links and using pseudo selector, change the colours of the link when it is active, visited, hover. -->
+<head>
+    <style>
+    /* unvisited link */
+    a:link {
+      color: red;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: hotpink;
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Styling a link depending on state</h2>
+    
+    <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+      <p><b><a href="https://www.youtube.com" target="_blank">Youtube link</a></b></p>
+      <p><b><a href="https://www.bitlabs.in" target="_blank">BitLabs link</a></b></p>
+    
+    </body>
+    
+    </body>
+    </html>
