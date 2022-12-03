@@ -1,0 +1,200 @@
+<!-- Front End Foundation: Mini Project
+Arogya Hospital Information Management System
+
+Hey learner!! Remember our client Arogya Hospital, for whom we built a Java based application? They liked your work, and they are back with another project contract. This time Arogya Hospital needs some nice-looking web pages (front end) for the operators, nurses and doctors to use. Understand the requirements below and use what you learned about HTML and CSS. 
+
+Please read the description carefully before you start implementation. Based on the success of this project, Arogya will award additional contracts to bitLabs.
+
+The management system should have the following features: -
+
+• Home page
+Home page should contain Hospital logo, brief description of hospital and their mission with attractive images. 
+Also, we should have Some other options to choose like - 
+1.Medicine Record 
+2.Patient’s Registration 
+3.Patient’s Profile 
+4.Contact us
+
+• Medicine Record
+Beside Home page option we should have Medicine Entry Form. This form is used to capture the name of the medicine supplier and all the medicines supplied by them.
+In medicine entry form we should take 3 inputs that represent the “Supplier Details”
+1.Supplier ID 
+2.Supplier Name 
+3.Date and time of Supply
+
+• Right below the “Supplier Details” you should have a table, with multiple rows. Each row represents a medicine supplied by the particular Supplier.   
+1.Medicine ID 
+2.Medicine Name 
+3.Unit price 
+4.Quantity 
+5.Manufacture date
+6.Expiry Date
+And the “Submit button” at the bottom middle of the page.
+
+● Patient’s Registration 
+This page is used to register patients into the system and to admit them.
+
+Assign a unique id to each patient admitted.
+
+Add a patient’s personal details:
+Add a patient’s details to your page whenever there is a new patient admitted.
+The patient details should include his/her name, age, gender, Aadhar Card number, contact number, Emergency contact number, Complete address, etc.
+
+Guardian's Information: -
+Add a patient’s guardian’s details to your page whenever there is a new patient    admitted. The details should
+ include his/her name, age, gender, Aadhar Card number, contact number, Complete address, etc.
+
+COVID 19: Past 1 year information: 
+In this section we will be collecting their past record related to covid. The details should include Travel info: 
+Did He/she travel in the past 1 Month?, Vaccine Doses, Date of last dose, Date of last Covid test, If patient is 
+showing any symptoms? etc.
+
+Insurance details: 
+We should collect their insurance details (if any) like insurance membership, Insurance number, etc. 
+
+And take “Date of admission” then “Submit Button” at the bottom of the page.
+
+● Search Patients
+This page is used to do the following:
+1.View full list of patients
+2.Search an entry of patient
+3.Recovery and Delete 
+
+View full list of patients
+The system should show the list of patients at any point of time. Basically, the system should be dynamic and a 
+real time system. In other words, it can provide results at any point of time without any delays. For now, just 
+provide a button to view all patients, and we can hook it to up to the backend in a later project.
+
+Search an entry of patient
+The operator must be able to search for patients using any of the following information Patient ID, Patient Name,
+ Patient City, Patient Age. For a searching by age, provide minimum age and maximum age as search input. 
+
+Recovery and Delete
+Mark the patient recovered when he or she is fully recovered using patient’s ID as input. The system should also 
+be able to delete the information of a patient when asked to, using patient’s ID as input. 
+ 
+• Contact us
+In this page we should include all contact details of hospitals like Address, Phone No,	Email address, Mobile No.,
+ Customer Support, Ambulance Contact No., Website, etc.
+
+If you want to add some extra features in your project then you can discuss it with your respective mentor. Your 
+innovative ideas are very welcome.
+
+Sounds exciting? Then please go ahead and start your implement using HTML and CSS learnt in the Front-End 
+foundation course. 
+
+Note: Create menu bar which includes Home, Medicine Record, Patient Registration, Patient Profile and contact us 
+as a menu values. When we click on the menu option display related elements on the body part of the HTML page. 
+Create footer and display “© All Rights Reserved by Arogya Hospital @bitLabs.in” message.
+
+All the very best and Happy learning with bitLabs!! -->
+<html>
+    <head>
+        <link  rel ="Stylesheet" href="Style.css">
+    </head>
+<body >
+    <div >
+        <img src="https://images1-fabric.practo.com/practices/828483/aarogya-hospital-delhi-5e6fbec22b9fe.png">
+    </div>
+    <div class="navbar">
+        <a class="active" href="#">Home</a>
+        <a href="Medicine.html"><b>Medicine Record</b></a>
+       <a href="Patient.html"><b>Patient's Registration</b></a>
+       <a href="Patientsprofile.html"><b>Patient's Profile</b></a>
+       <a href="Contact.html"><b>Contact us</b></a>
+       <a href="Search.html"><b>Search</b></a>
+    </div>
+    <div>
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;""><b>Welcome to Aarogya hospital</b></h1>
+        <h3 style="text-align: center; font-family: 'Courier New', Courier, monospace;" >We offer Extensive Medical Procedures to outbound and inbound patients</h3>
+        <img  class= "img" src="https://thumbs.dreamstime.com/b/group-hospital-doctors-over-health-care-clinic-background-89857953.jpg">
+        <p style="text-align: justify; line-height: 30px;" >Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India. Here at Aarogya, we make 
+            every effort to ensure that the healthcare system and those working within it are devoted to work 
+            ethics and patient's interest. Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India. Here at Aarogya, we make 
+            every effort to ensure that the healthcare system and those working within it are devoted to work 
+            ethics and patient's interest.Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India. Here at Aarogya, we make 
+            every effort to ensure that the healthcare system and those working within it are devoted to work 
+            ethics and patient's interest.Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India. Here at Aarogya, we make 
+            every effort to ensure that the healthcare system and those working within it are devoted to work 
+            ethics and patient's interest.
+        </p>
+        
+        <h2>Why choose Aarogya healthcare</h2>
+        <p>
+            Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India. Here at Aarogya, we make 
+            every effort to ensure that the healthcare system and those working within it are devoted to work 
+            ethics and patient's interest.
+        </p>
+        <h3>9000+ Healing Hand</h3>
+        <p>
+            Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India.
+        </p>
+       
+        <h3>1000+ Pharmacies</h3>
+        <p>
+            Here at Aarogya, we make every effort to ensure that the healthcare system and those working within it are devoted to work 
+        </p>
+        <img class="img2" src="https://t4.ftcdn.net/jpg/02/75/88/05/360_F_275880540_UEZz9qPAqlowxiF1XT1gGwJYGf86HAHc.jpg">
+        <h3> Advance Healthcare Technology</h3>
+        <p>
+            We make every effort to ensure that the healthcare system and those working within it are devoted
+        </p>
+        <h3>9000+ Healing Hand</h3>
+        <p>
+            Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+            committed to build on the core principles of quality, safety and clinical excellence with the promise 
+            of bringing quality healthcare at cost-effective prices for people of India.
+        </p>
+        
+        <img class="img3" src="https://media.istockphoto.com/id/1205548238/photo/female-doctor-wearing-scrubs-in-hospital-corridor-using-digital-tablet.jpg?s=612x612&w=0&k=20&c=Usam43vRX4XJL01UoDD1AuGkj3dgwv8f-eFJFTIkhQQ=">
+        <br>
+        <h3> Advance Healthcare Technology</h3>
+        <p>
+            We make every effort to ensure that the healthcare system and those working within it are devoted
+        </p>
+        <ol>
+            <li>We make every effort to ensure that the healthcare system</li>
+            <li>Aarogya Hospital is in the Panchkula city of Panchkula district</li>
+            <li>We make every effort to ensure that the healthcare system</li>
+            <li>Aarogya Hospital is in the Panchkula city of Panchkula district</li>
+        </ol>
+        <h3>Location</h3>
+            </div>
+
+            <div class="foot">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.931076204039!2d76.36136906440117!3d30.352908660890964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39102f534a87b5c5%3A0xda1d3ed337e382b3!2sThapar%20University%2C%20Prem%20Nagar%2C%20Patiala%2C%20Punjab%20147004!5e0!3m2!1sen!2sin!4v1669965488944!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2 style="color: red;">About us</h2>
+                <p style="text-align: justify; font-family: 'Courier New', Courier, monospace;">Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+                    committed to build on the core principles of quality, safety and clinical excellence with the promise 
+                    of bringing quality healthcare at cost-effective prices for people of India. Aarogya Hospital is in the Panchkula city of Panchkula district, Haryana State.Aarogya Hospital is 
+                    committed to build on the core principles of quality, safety and clinical excellence with the promise 
+                    of bringing quality healthcare at cost-effective prices for people of India.</p>
+                
+
+                    <h2 style="color: yellow;">For daily Upadtes</h2>
+                    <form>
+                        <label>Enter email address</label>
+                        <input type="email" value="enter email here">
+                        <input type="submit"value="Subscribe">
+                    </form>
+                
+                <h2 style="text-align: right;">Contact info</h2>
+                <p style="text-align: right;">Address: NH 89, behind Fortis Hospital, Rani Bazar, Bikaner, Rajasthan 334001</p>
+                <p style="text-align: right ;">Phone no. 8894181261</p>
+                <p> “© All Rights Reserved by Arogya Hospital @bitLabs.in”</p>
+            </div>
+            
+</body>    
+</html>
