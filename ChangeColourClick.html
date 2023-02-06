@@ -1,0 +1,28 @@
+<!-- Create a list of items, where each item can be clicked to toggle its background 
+color between red and yellow. -->
+
+<html>
+    <head>
+        <style>
+            li{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="col"></div>
+            <ul >
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Grapes</li>
+                <li>Kivi</li>
+            </ul>
+        
+        <script>
+            function dis(){
+                var data ="<style>li{background-color: yellow;}</style>"
+                document.getElementById("col").innerHTML=data;
+            }
+        </script>
+    </body>
+</html>

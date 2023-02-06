@@ -1,0 +1,3 @@
+function bom(){
+    history.back();
+}

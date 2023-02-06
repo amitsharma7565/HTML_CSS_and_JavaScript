@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <form action="" name="dataForm">
+            <input type="password"  id="data" name="pwds" >
+            strength:<p id="msg"></p>
+        </form>
+       
+        <script>
+            function sample(){
+               var pwd=document.dataForm.pwds.value;
+               var msg;
+               if(pwd.length>5){
+                msg="good";
+               }
+               else{
+                msg="bad";
+               }
+               document.getElementById("msg").innerText=msg;
+            }
+            document.getElementById("data").addEventListener("keyup",sample);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <input type="button" value="comment"  onclick="sample()" >
+        <div id="para"></div>
+        <script>
+            function sample(){
+                var data= "<form><label>Enter the name</label><input type='text'/> <br><label>write comment</label><textarea rows='5' cols='10'></textarea><input type='button' value='postComment'/></form>"
+                document.getElementById("para").innerHTML=data;
+            }
+        </script>
+        
+    </body>
+</html>
