@@ -1,0 +1,10 @@
+let num=123456789
+let result=0
+
+while(num>0){
+    lastDigit=num%10
+    result=result*10+lastDigit
+    num=parseInt(num/10)
+}
+console.log(result)
+
