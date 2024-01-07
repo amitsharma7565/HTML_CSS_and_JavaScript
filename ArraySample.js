@@ -1,11 +1,6 @@
-function array(){
-    // var arr=[1,2,3,4,5];
-    var arr=new Array(1,2,3,4,6);
-    for(var i=0;i<5;i++){
-        arr[i]=prompt("enter array elements");
-    }
-    for(var i=0;i<arr.length;i++){
-        document.write(arr[i]);
-    }
-    
-}
+let values=[5,7,6]
+
+values.push(10)
+console.log(values[0])
+console.log(values.length)
+console.log(typeof values)

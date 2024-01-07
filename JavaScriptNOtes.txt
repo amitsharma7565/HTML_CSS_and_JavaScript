@@ -1,0 +1,76 @@
+JavaScript
+
+Type Conversion 
+
+number+String = it return string
+
+number-String = it return number
+
+
+==========================================================================
+IN Realtion Operator
+if compare the value with == it check Data only not type
+if compare the value with === it check the data and type also 
+
+
+
+
+
+
+==========================================================================
+Fnction assign to some variable it is called FunctionExpression
+
+function has no name is called anonimus function 
+
+
+==========================================================================
+
+
+this keyword represent the current object
+
+
+===========================================================
+
+pop method remove the last element from the array(last in first out) and it print which element it will remove (remove from the end)
+
+======================================================
+shift method push all the element formt the left hand side and it remove the first element and print which element it will remove (remove from the first)
+====================================================
+unshift method push all the elemet reight side and i will add the element in the Zero index print which element it will add
+================================================
+splice method  add and remove the element it will add when you give the index value and it will also add the value you give the data in the 3 paramaters
+
+
+=================================================
+Difference between for in loop and for of loop 
+
+in will print the key and of will print the values
+ in array mostly it work wiht of loop bcoz it print the values and we want most of time values
+
+==================================================
+for each loop we can pass the paramerts like(values, index, array or set)
+
+============================
+map- do some operation in the values
+reduce - it will give the one value 
+filter -filter the element based on the condition 
+
+these three method 
+
+==============================
+
+set and array
+
+array- collection  of value and every value have index ad it store similar value also 
+
+set - it is collection, set has a unique value, set is  unorderd list,it maintin the order, set has no index values
+
+map-key and value pair , key should be unique and this set and add method , set will set the value based on the key and add will add the values
+
+
+
+==========
+
+recursion
+create a function and calling the function with the same function 
+
